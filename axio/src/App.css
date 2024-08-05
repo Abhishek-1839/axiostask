@@ -1,0 +1,49 @@
+/* .datas{
+  color: rgb(59, 33, 203);
+  display: flex;
+  justify-content: space-evenly;
+
+} */
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+form button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}
